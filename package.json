@@ -1,0 +1,20 @@
+{
+  "name": "appexe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "makeBuild": "pkg index.js -o app",
+    "makeBuild2": "pkg index.js"
+  },
+  "keywords": [],
+  "author": "Jayvir Rathi",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.6.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
